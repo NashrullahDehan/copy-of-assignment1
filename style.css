@@ -1,0 +1,299 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header.bg-color{
+    background-color: rgb(228, 228, 228);
+    color:rgb(87, 83, 83);
+}
+.header-div-tel-email{
+    display: flex;
+    height: 50px;
+}
+.header-child-div p{
+    float: left;
+}
+.header-child-div img{
+    float: left;
+    width:20px;
+    margin-top: 10%;
+}
+.header-child-div{
+    float: left;
+    margin-left: 20%;
+}
+
+.sec1-logo-heading{
+    display:flex;
+    height: 150px;
+}
+.sec1-logo-heading img{
+    margin-left: 12%;
+}
+.sec1-logo-heading h1{
+    width:35%;
+    height:80px;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 60px;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(252, 252, 252);
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin: 5% 8%;
+}
+
+.sec2-intro-image{
+    border: 2px solid black;
+    background-image: url(/images/donation13.jpg);
+    color:white;
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2-intro-image h1{
+    font-size: 70px;
+}
+/* .sec2-intro-image p{
+} */
+
+#sec2-h1{
+    margin-top: 11%;
+    margin-bottom: 0;
+}
+
+#sec2-h2{
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+#sec2-p1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sec2-p2{
+    margin-top: 0;    
+    margin-bottom: 3%;    
+}
+
+.button-style2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.sec3-donate-option{
+    border: 1px solid white;
+    height: 500px;    
+    text-align: center;
+    margin-top: 65px;
+}
+
+.sec3-donate-head{
+    font-size: 55px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.sec3-donate-para{
+    margin-bottom: 0;
+    text-align: center;
+    color:rgb(112, 112, 112);
+}
+.sec3-donate-para2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color:rgb(112, 112, 112);
+}
+
+.sec3-money-box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.sec3-child-box{
+    text-align: center;
+    color: rgb(60, 60, 60);
+    font-weight: 700;
+    font-size: 30px;
+    background-color:whitesmoke;
+    width: 9%;
+    margin-left: 3%;
+    padding-top: 29px;
+}
+
+#sec3-child-box1{
+    margin-left: 20%;
+}
+
+#sec3-money-mark{
+    border: 2px solid red;
+    color: red;
+}
+
+.sec3-other-option{
+    color: rgb(87, 83, 83);
+    padding-bottom: 5px;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 35px;
+}
+
+.button-style3{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.sec4-donate-plan{
+    border: 1px solid white;
+    height: 500px;    
+    }
+/* section 4's h1 and p has same style as .sec3-donate-head and .sec3-donate-para */
+
+.sec4-div-parent{
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.sec4-div-child{
+    border-radius: 5px;
+    width: 22%;
+    margin-left: 2%;
+    padding:0px 25px 3px;
+}
+
+#sec4-child1{
+    margin-left: 7%;
+    background-color: aliceblue;
+}
+
+#sec4-child2{
+    background-color: rgba(255, 182, 193, 0.19);
+}
+
+#sec4-child3{
+    background-color: rgba(250, 250, 210, 0.47);
+}
+
+.sec4-div-child img{
+margin-top: 35px;
+margin-bottom: 0;
+}
+
+.sec4-div-child p{
+    color:rgb(112, 112, 112);
+}
+
+.sec5-design{
+    margin-top: 85px;
+    height: 500px;
+    display: flex;
+}
+.sec5-div1{
+    width: 47%;
+    margin-left: 4%;
+}
+.sec5-div1 h1{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+#sec5-head1{
+    margin-top: 80px;
+}
+#sec5-head2{
+    margin-top: 0;
+}
+
+.sec5-div2{
+    width: 40%;
+    margin-left: 4%;
+}
+.sec5-div1 p{
+    color:rgb(112, 112, 112);
+}
+#sec5-p2{
+    margin-bottom: 35px;
+}
+.sec5-div2 img{
+    height: 100%;
+    width:100%;
+}
+
+.sec6-design{
+    border: 2px solid white;
+    margin-top: 85px;
+    height: 500px;
+}
+
+.sec6-div{
+    display: flex;
+    height: 220px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sec6-form{
+    display: inline-block;
+    justify-content: center;
+}
+
+.sec6-child-div{
+    width:100%;
+    margin-left: 75%;
+    margin-top: 70px;
+}
+.sec6-input{
+    margin-right: 0;
+    margin-top: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.button-style4{
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    border-color:lightgoldenrodyellow;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(187, 186, 186);
+    padding: 9px 30px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+footer{
+    background-color: rgb(41, 40, 40);
+    color: rgb(167, 167, 167);
+    text-align: center;
+    height: 100px;
+    padding: 15px;
+}
+.foot p{
+    margin-top: 100px;
+}
