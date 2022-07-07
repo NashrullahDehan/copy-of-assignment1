@@ -52,7 +52,7 @@ header.bg-color{
 
 .sec2-intro-image{
     border: 2px solid black;
-    background-image: url(/images/donation13.jpg);
+    background-image: url(./images/donation13.jpg);
     color:white;
     height: 500px;
     text-align: center;
